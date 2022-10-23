@@ -1,0 +1,10 @@
+[package]
+name = 'AptosShibaLocker'
+version = '1.0.0'
+
+[addresses]
+AptosShibaLocker = "0x2778b277644d375721766abfff0df2adca795f6cbae9f02ff1c95ce9adb6ee28"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev="mainnet"}
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib/", rev="mainnet"}
